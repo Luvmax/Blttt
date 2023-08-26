@@ -20,8 +20,8 @@ from matplotlib.ticker import FuncFormatter
 
 Config = {
     "Towers" : {
-        "WinChance" : 64,  # Percent they will win when they click a tower
-        "Multis" : [1.42, 2.02, 2.86, 4.05, 5.69]  # Multipliers On The Blocks
+        "WinChance" : 62,  # Percent they will win when they click a tower
+        "Multis" : [1.40, 2.00, 2.80, 4.05, 5.50]  # Multipliers On The Blocks
     },
     "Mines" : {
         "House" : 0.075,  # The Multiplier Will Be Multiplied by 1.00 - This
@@ -33,22 +33,22 @@ Config = {
         "ChannelID" : "1133722538678161519"  # Id of the channel crash games will be in
     },
     "Deposits": {
-        "Channel": "1133720318914084885" # Id of Channel Deposits will be shown in
+        "Channel": "1145086334847963317" # Id of Channel Deposits will be shown in
     },
     "Withdraws": {
-        "Channel": "1133720389558743110" # Id of Channel withdraws will be shown in
+        "Channel": "1145086223841509417" # Id of Channel withdraws will be shown in
     },
     "Coinflip" : {
-        "1v1" : "1133720431577276447",  # Channel That Coinflips Be In
+        "1v1" : "1145093719079522476",  # Channel That Coinflips Be In
         "House" : 2.5  # House Edge (%)
     },
     "Rains" : {
-        "Channel" : "1133720412921016351" # Set to the id the channel rains will be in
+        "Channel" : "1145088323547844668" # Set to the id the channel rains will be in
     },
     "Rakeback" : 4, # Rakeback %
     "PathToExecutorWorkspace" : "", # Path To Your Executors Workspace (for auto depos and withdraws)
-    "RobloxUser" : "fersord",  # Your roblox username, people will deposit to this account
-    "DiscordBotToken": "your bot token" # The token of the discord bot
+    "RobloxUser" : "BetOnPSX",  # Your roblox username, people will deposit to this account
+    "DiscordBotToken": "MTEzODEwOTcxODM1NTc3OTczNQ.G9iZc_.ik_0nXrt0IAJsyDGsxrwbJzTnn_eNgWHEgVsvo" # The token of the discord bot
 }
 
 def percentage(percent, whole) :
@@ -1905,4 +1905,4 @@ def billions(x, pos) :
     'The two args are the value and tick position'
     return '%1.1fB' % (x * 1e-9)
 
-bot.run(Config['DiscordBotToken'])
+bot.run(Config['MTEzODEwOTcxODM1NTc3OTczNQ.G9iZc_.ik_0nXrt0IAJsyDGsxrwbJzTnn_eNgWHEgVsvo'])
